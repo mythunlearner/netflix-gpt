@@ -1,12 +1,9 @@
 
 import './App.css';
+import Body from './components/Body'; // Ensure this path matches your folder structure
 
 function App() {
-  return (
-    <div className="text-3xl font-bold text-red-600">
-      Hi Every one , Let build netFlix GPT !
-    </div>
-  );
+  return <Body />;
 }
 
 export default App;
