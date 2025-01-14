@@ -1,9 +1,9 @@
 
 import './App.css';
-import Body from './components/Body'; // Ensure this path matches your folder structure
+import MainContent from './components/MainContent'; // Ensure this path matches your folder structure
 
 function App() {
-  return <Body />;
+  return <MainContent />;
 }
 
 export default App;
