@@ -86,6 +86,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Created Redux Store with userSlice
 - Implemented Sign Out
 - Update profile
+- BugFix: Sign up user displayName and profile picture update
+- BugFix: if the user is not logged in Redirect / browse to Login page and vice-versa
+- Detch from TMDB Movies
+- Unsubscribed to the onAuthStateChanged Callback
 
 # Features
 - Login/Sign Up
