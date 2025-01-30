@@ -90,7 +90,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - BugFix: if the user is not logged in Redirect / browse to Login page and vice-versa
 - Detch from TMDB Movies
 - Unsubscribed to the onAuthStateChanged Callback
-
+- Add hard coded values to the constatnt file
+- Registered TMDB API & create an app & get access token
+- Get Data from TMDB now playing movies list API
 # Features
 - Login/Sign Up
   - Sign In / Sign Up Form
