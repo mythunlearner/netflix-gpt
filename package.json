@@ -4,8 +4,10 @@
   "private": true,
   "dependencies": {
     "@testing-library/react": "^16.1.0",
+    "axios": "^1.7.9",
     "cra-template": "1.2.0",
     "firebase": "^11.1.0",
+    "openai": "^4.83.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-redux": "^9.2.0",
