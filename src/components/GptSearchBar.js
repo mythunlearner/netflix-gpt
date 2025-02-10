@@ -1,3 +1,4 @@
+
 import React, { useRef } from "react";
 import lang from "../utils/languageConstant";
 import { useSelector ,useDispatch } from "react-redux";
@@ -54,19 +55,26 @@ const GptSearchBar = () => {
       >
         <input
           ref={searchText}
+
+
           type="text"
           className="p-4 m-4 col-span-9"
           placeholder={lang[langKey].gptSearchPlaceHolder}
         />
+
         <button
           className="col-span-3 py-2 px-4 m-4 bg-red-800 text-white rounded-lg"
           onClick={handleGptSearchClick}
         >
           {lang[langKey].search}
+
         </button>
       </form>
     </div>
   );
+
 };
 
 export default GptSearchBar;
+
+

@@ -1,4 +1,5 @@
 import React from 'react'
+
 import {useSelector} from "react-redux";
 import MovieList from './MovieList';
 const GptMovieSuggestion = () => {
@@ -17,6 +18,7 @@ const GptMovieSuggestion = () => {
       </div>
     </div>
   );
+
 }
 
 export default GptMovieSuggestion

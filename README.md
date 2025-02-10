@@ -108,7 +108,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Added MultiLingual for CHAT GPT search
 - GPT Serarch Bar
 - GPT Search Page
+
 - Added .env file 
+
 # Features
 - Login/Sign Up
   - Sign In / Sign Up Form
