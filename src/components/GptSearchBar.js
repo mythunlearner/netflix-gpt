@@ -1,4 +1,5 @@
 
+
 import React, { useRef } from "react";
 import lang from "../utils/languageConstant";
 import { useSelector ,useDispatch } from "react-redux";
@@ -47,6 +48,7 @@ const GptSearchBar = () => {
      dispatch(addGptMovieResult({movieNames:useDispatch, movieResults:tmdbResults}));
   };
 
+
   return (
     <div className="pt-[10%] flex justify-center">
       <form
@@ -61,13 +63,11 @@ const GptSearchBar = () => {
           className="p-4 m-4 col-span-9"
           placeholder={lang[langKey].gptSearchPlaceHolder}
         />
-
         <button
           className="col-span-3 py-2 px-4 m-4 bg-red-800 text-white rounded-lg"
           onClick={handleGptSearchClick}
         >
           {lang[langKey].search}
-
         </button>
       </form>
     </div>

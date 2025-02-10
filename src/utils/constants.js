@@ -7,9 +7,7 @@ export const API_OPTIONS = {
   method: "GET",
   headers: {
     accept: "application/json",
-
     Authorization: "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1MGEwNTgyYTEwNjg0OTc2NWQxYTExODllYjU1OWY1NCIsIm5iZiI6MTczNzY4MjQ1My42ODYsInN1YiI6IjY3OTJlZTE1NTc5NzVmMWIwYjE4NDg3OSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.VBO4ks1putNtOsDCBWZDqUvdG_9ykC2BupkU1XCZktA"
-
   },
 }
 
@@ -23,7 +21,5 @@ export const SUPPORTED_LANGUAGES = [
   { identifier: "tamil", name: "Tamil" },
   { identifier: "hindi", name: "Hindi" },
   { identifier: "spanish", name: "Spanish" },
-
 ];
-
 
