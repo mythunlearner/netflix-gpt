@@ -109,7 +109,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - GPT Serarch Bar
 - GPT Search Page
 - Added .env file 
-
+- created gptslice added data
+- Reused Movie List component to make movie suggestion
+- Added .env file to gitignore
+- Responsive UI
 
 # Features
 - Login/Sign Up
